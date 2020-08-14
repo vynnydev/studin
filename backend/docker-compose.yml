@@ -55,7 +55,7 @@ services:
     ports:
       - "27017:27017"
   redis:
-    container_name: studin-redis
+    container_name: -redis
     image: redis:alpine
     expose:
       - 6379
